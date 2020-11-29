@@ -1,0 +1,9 @@
+[Unit]
+Description=Minecraft Server
+
+[Service]
+WorkingDirectory=~/minecraft
+ExecStart=~/minecraft/servidor.sh
+
+[Install]
+WantedBy=multi-user.target
